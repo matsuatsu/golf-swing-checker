@@ -27,7 +27,7 @@ const config: Config = {
         docs: {
           path: 'lessons',
           sidebarPath: './sidebars.ts',
-          routeBasePath: 'lessons',
+          routeBasePath: '/',
         },
         blog: false,
         theme: {
