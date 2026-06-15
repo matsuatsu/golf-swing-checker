@@ -1,0 +1,60 @@
+.main {
+  min-height: calc(100vh - 60px);
+}
+
+.hero {
+  display: grid;
+  min-height: calc(100vh - 60px);
+  place-items: center;
+  padding: 48px 24px;
+  background:
+    linear-gradient(rgba(21, 31, 28, 0.72), rgba(21, 31, 28, 0.64)),
+    url('/img/golf-range.svg') center / cover;
+  color: #ffffff;
+}
+
+.inner {
+  width: min(880px, 100%);
+}
+
+.kicker {
+  margin: 0 0 16px;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  margin: 0;
+  max-width: 720px;
+  font-size: clamp(2.25rem, 6vw, 4.8rem);
+  line-height: 1.05;
+  letter-spacing: 0;
+}
+
+.lead {
+  margin: 24px 0 32px;
+  max-width: 640px;
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+
+.button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 6px;
+  padding: 0 18px;
+  background: #ffffff;
+  color: #16362d;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: #16362d;
+  text-decoration: none;
+}

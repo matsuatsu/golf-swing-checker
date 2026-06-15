@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Docusaurus
+.docusaurus/
+build/
+
+# Package manager caches
+.pnpm-store/
+.corepack/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# TypeScript
+*.tsbuildinfo
