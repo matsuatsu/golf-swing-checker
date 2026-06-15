@@ -6,10 +6,10 @@ const config: Config = {
   tagline: '基礎から段階的にゴルフスイングを作る',
   favicon: 'img/favicon.ico',
 
-  url: 'https://example.com',
-  baseUrl: '/',
+  url: 'https://matsuatsu.github.io',
+  baseUrl: '/golf-swing-checker/',
 
-  organizationName: 'matsu',
+  organizationName: 'matsuatsu',
   projectName: 'golf-swing-checker',
 
   onBrokenLinks: 'throw',
